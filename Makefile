@@ -5,8 +5,5 @@ clean: clean_built
 
 test:
 	mkdir build
-	cd build
-	ls
-	cmake ..
-	make
+	cd build; ls; cmake ..; make
 
