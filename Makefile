@@ -13,7 +13,7 @@ clean:: clean_built
 
 test::
 	@mkdir -p build
-	cd build; cmake ..; make
+	cd build; cmake ..; make; make test
 
 static::
 	@mkdir -p build
