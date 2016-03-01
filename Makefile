@@ -14,3 +14,7 @@ test::
 	@mkdir -p build
 	cd build; cmake ..; make
 
+static::
+	cd build; cmake ..; make cppcheck
+
+
